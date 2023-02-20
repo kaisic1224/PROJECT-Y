@@ -1,0 +1,6 @@
+-mobile app
+-ci/cd
+-unit tests with jest
+-rust backend
+-user auth
+-api integrations
