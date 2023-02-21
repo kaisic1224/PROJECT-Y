@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-
+import Theme from "../constants/Colors";
 import EditScreenInfo from "../components/EditScreenInfo";
 import { Text, View } from "../components/Themed";
 import { RootTabScreenProps } from "../types";
@@ -10,7 +10,7 @@ export default function TabOneScreen({
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One</Text>
-      <Text>ARGARARARR</Text>
+      <Text>wen yao</Text>
       <View
         style={styles.separator}
         lightColor='#eee'
