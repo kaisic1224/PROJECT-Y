@@ -10,7 +10,8 @@ export default function TabOneScreen({
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One</Text>
-      <Text>wen yao</Text>
+      <Text style={styles.title}>wen yao</Text>
+      <Text style={styles.title}>zaza</Text>
       <View
         style={styles.separator}
         lightColor='#eee'
@@ -29,7 +30,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontWeight: "bold"
+    fontWeight: "bold",
+    color: Theme.dark.white
   },
   separator: {
     marginVertical: 30,
